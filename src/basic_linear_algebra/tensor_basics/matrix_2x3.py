@@ -1,4 +1,4 @@
-# python src/basic_linear_algebra/matrix/matrix_2x3.py
+# python src/basic_linear_algebra/tensor_basics/matrix_2x3.py
 import numpy as np
 
 # 2x3 matrix 정의

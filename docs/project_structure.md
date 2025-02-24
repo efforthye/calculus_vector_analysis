@@ -4,6 +4,7 @@ calculus_vector_analysis/
 │── node_modules/
 │── src/
 │   ├── basic_linear_algebra/
+│   │   ├── tensor_basics/
 │   │   ├── tensor/
 │   │   │   ├── tensor_operations.js
 │   │   ├── maxtix/

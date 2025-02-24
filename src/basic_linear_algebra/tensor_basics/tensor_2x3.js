@@ -1,4 +1,4 @@
-// node src/basic_linear_algebra/tensor/tensor_2x3.js
+// node src/basic_linear_algebra/tensor_basics/tensor_2x3.js
 import * as tf from '@tensorflow/tfjs';
 
 // 2x3 tensor 정의
