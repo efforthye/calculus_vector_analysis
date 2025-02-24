@@ -1,13 +1,15 @@
 ### project structure
 ```
-calcululs_vector_analysis/
+calculus_vector_analysis/
 │── node_modules/
 │── src/
 │   ├── basic_linear_algebra/
-│   │   ├── index.js  # 메인 실행 파일
-│   │   ├── vector_operations.js
-│   │   ├── matrix_operations.js
-│   │   ├── tensor_operations.js
+│   │   ├── tensor/
+│   │   │   ├── tensor_operations.js
+│   │   ├── maxtix/
+│   │   │   ├── matrix_operations.js
+│   │   ├── vector/
+│   │   │   ├── vector_operations.js
 │   ├── calculus/
 │   │   ├── differentiation.js
 │   │   ├── integration.js
