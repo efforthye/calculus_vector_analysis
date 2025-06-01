@@ -32,10 +32,3 @@ turtle.end_fill()
 turtle.hideturtle()
 turtle.done()
 
-
-
-
-
-
-
-
