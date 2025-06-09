@@ -11,11 +11,23 @@ calculus_vector_analysis/
 │   │   ├── vector/
 │   │   │   ├── vector_operations.js
 │   ├── calculus/
-│   │   ├── differentiation.js
-│   │   ├── integration.js
+│   │   ├── integration/
+│   │   │   ├── substitution/
+│   │   │   │   ├── substitution.py
+│   │   │   │   └── README.md
+│   │   │   ├── by_parts/
+│   │   │   │   ├── integration_by_parts.py
+│   │   │   │   └── README.md
+│   │   │   ├── natural_log/
+│   │   │   │   ├── natural_log.py
+│   │   │   │   └── README.md
+│   │   │   └── fundamental_theorem/
+│   │   │       ├── fundamental_theorem.py
+│   │   │       └── README.md
 │   ├── vectors/
 │   │   ├── dot_product.js
 │   │   ├── cross_product.js
+│   └── turtle/
 │── tests/
 │   ├── basic_linear_algebra.test.js
 │   ├── calculus.test.js
@@ -33,11 +45,33 @@ calculus_vector_analysis/
 <img src="src/turtle/ellipse.png" alt="ellipse" width="150">
 
 - 세타 호도법 변환 공식
-```
+`
 t = i*(pi/180)
-```
+`
 - 타원 매개변수 방정식
-```
+`
 x = a*cos(t)
 y = b*sin(t)
+`
+
+### 적분법 (Integration Methods)
+
+#### 치환 적분법 (Substitution Integration)
+```python
+python src/calculus/integration/substitution/substitution.py
+```
+
+#### 부분 적분법 (Integration by Parts)  
+```python
+python src/calculus/integration/by_parts/integration_by_parts.py
+```
+
+#### 자연로그 함수의 적분 (Natural Log Integration)
+```python
+python src/calculus/integration/natural_log/natural_log.py
+```
+
+#### 미적분학의 기본정리 (Fundamental Theorem of Calculus)
+```python
+python src/calculus/integration/fundamental_theorem/fundamental_theorem.py
 ```
