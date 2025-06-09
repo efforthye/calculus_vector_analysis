@@ -53,25 +53,3 @@ t = i*(pi/180)
 x = a*cos(t)
 y = b*sin(t)
 `
-
-### 적분법 (Integration Methods)
-
-#### 치환 적분법 (Substitution Integration)
-```python
-python src/calculus/integration/substitution/substitution.py
-```
-
-#### 부분 적분법 (Integration by Parts)  
-```python
-python src/calculus/integration/by_parts/integration_by_parts.py
-```
-
-#### 자연로그 함수의 적분 (Natural Log Integration)
-```python
-python src/calculus/integration/natural_log/natural_log.py
-```
-
-#### 미적분학의 기본정리 (Fundamental Theorem of Calculus)
-```python
-python src/calculus/integration/fundamental_theorem/fundamental_theorem.py
-```
